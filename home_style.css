@@ -1,0 +1,125 @@
+*
+{
+  margin: 0;
+}
+
+body {
+  color: white;
+  background-color: rgb(0,0,33);
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+}
+
+nav ul{
+  list-style: none;
+   display: flex;
+   justify-content: center;
+
+}
+
+a
+{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(153,153,226);
+    font-size: 1.04rem;
+}
+
+nav ul li{
+  margin: 0px 23px; 
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  background-color: rgb(18,18,62);
+}
+
+.left
+{
+  font-size: 1.5rem;
+}
+
+
+.firstsection
+{
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0;
+  align-items: center;
+}
+
+.firstsection > div
+{
+  width: 45%;
+}
+
+.leftsection
+{
+  width: 50%;
+  font-size: 3rem;
+}
+
+.rightsection
+{
+  width: 50%;
+  height: 240px;
+}
+
+.rightsection img
+{
+  width: 72%;
+  
+}
+
+.purple
+{
+  color: rgb(107,107,228);
+}
+
+#element
+{
+  color: rgb(107,107,228);
+}
+
+.leftsection .butn
+{
+  margin-top: 0;
+  padding: 12px 0 0 5px;
+
+}
+.button1
+{
+  height: 30px;
+  width: 105px;
+}
+
+.button2
+{
+  height: 30px;
+  width: 105px;
+}
+
+.button3
+{
+  height: 30px;
+  width: 105px;
+}
+
+
+.butn .button1,.button2, .button3
+{
+   background-color: rgb(76, 5, 190);
+   color: white;
+   font-weight: 700;
+}
+
+.butn :hover
+{
+   scale: 1.2;
+}
